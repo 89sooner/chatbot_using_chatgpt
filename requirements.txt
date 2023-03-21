@@ -1,0 +1,8 @@
+fastapi
+openai
+jinja2
+uvicorn
+slack_sdk
+slack_bolt
+httpx
+asyncio
