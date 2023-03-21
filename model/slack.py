@@ -2,9 +2,6 @@ from slack_sdk import WebClient
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
-# client = WebClient(token="xoxb-2534969639009-4971333576597-K8kohhX8e9JwWZGoqdJUEmOL")
-# channel_id = "C04UFKJ0B1C"
- 
 class SlackAPI:
     """
     슬랙 API 핸들러
@@ -56,7 +53,7 @@ class SlackAPI:
     
 
 # if __name__ == "__main__":
-#     slack = SlackAPI("xoxb-2534969639009-4971333576597-K8kohhX8e9JwWZGoqdJUEmOL")
+#     slack = SlackAPI("&&&")
 
 #     channel_name = "test_chat"
 #     query = "hi"
